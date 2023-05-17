@@ -24,12 +24,14 @@ cd polygon-lottery-dapp
 ```
 2. Install the dependencies:
 
-```npm install
+```
+npm install
 ```
 
 3. Compile and migrate the smart contract:
 
-```truffle compile
+```
+truffle compile
 truffle migrate --network matic
 ```
 
