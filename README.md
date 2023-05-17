@@ -19,7 +19,7 @@ To install and run the DApp, follow these steps:
 1. Clone this repository:
 
 ```bash
-git clone https://github.com/jlautenbach/polygon-lottery-dapp.git
+git clone [https://github.com/jlautenbach/polygon-lottery-dapp.git](https://github.com/jlautenbach/polylotto.git)
 cd polygon-lottery-dapp
 ```
 2. Install the dependencies:
