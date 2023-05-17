@@ -1,0 +1,34 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Polygon Lottery DApp</title>
+    <link
+        rel="stylesheet"
+        href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-pzjw8f+ua7Kw1TIq0v8FqFjcJ6pajs/rfdfs3SO+kD4Ck5BdPtF+to8xMp9MvcJ8"
+        crossorigin="anonymous"
+    >
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center my-5">Polygon Lottery DApp</h1>
+        <div class="text-center">
+            <button id="enter" class="btn btn-primary">Enter Lottery (Requires more than 0.01 MATIC)</button>
+            <button id="pickWinner" class="btn btn-success">Pick Winner</button>
+        </div>
+        <div class="mt-5">
+            <h3>Lottery Details:</h3>
+            <ul class="list-group">
+                <li class="list-group-item">Manager: <span id="manager"></span></li>
+                <li class="list-group-item">Number of players: <span id="playersCount"></span></li>
+                <li class="list-group-item">Total pot: <span id="totalPot"></span> MATIC</li>
+            </ul>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/gh/ethereum/web3.js/dist/web3.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
