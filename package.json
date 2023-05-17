@@ -1,0 +1,30 @@
+{
+  "name": "polygon-lottery-dapp",
+  "version": "1.0.0",
+  "description": "A decentralized lottery application on the Polygon network.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/polygon-lottery-dapp.git"
+  },
+  "keywords": [
+    "blockchain",
+    "dapp",
+    "polygon",
+    "lottery"
+  ],
+  "author": "Jesse Lautenbach",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/jlautenbach/polylottery/issues"
+  },
+  "homepage": "https://github.com/jlautenbach/polylottery#readme",
+  "dependencies": {
+    "web3": "^1.6.1",
+    "truffle": "^5.4.21",
+    "truffle-hdwallet-provider": "^1.2.1"
+  }
+}
